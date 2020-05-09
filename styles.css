@@ -299,7 +299,7 @@ hr {
 
   @keyframes virusAnimation-1 {
     from {
-      transform: translateX(190px);
+      transform: translateX(150px);
     }
 
     to {
@@ -328,6 +328,9 @@ hr {
 
   .info-img {
     position: absolute;
+  }
+  #preventions{
+    display: none;
   }
 
   .news,
