@@ -347,7 +347,7 @@ hr {
 
   .title-p {
     text-align: center;
-    padding-right: 0.8rem;
+    padding-right: 1.2rem;
     
   }
 
@@ -367,6 +367,7 @@ hr {
 
   .anchor {
     text-align: center;
+     padding-right: 1rem;
   }
 
   #video {
