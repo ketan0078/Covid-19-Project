@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 70px;
+  padding-right: 0;
+  background-image: linear-gradient(
+    190deg,
+    rgb(91, 100, 80),
+    rgb(129, 129, 116),
+    rgb(143, 128, 102)
+  );
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 4% 0 4%;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.08rem;
+}
+
+.quick-link h3 {
+  text-align: center;
+}
+
+.quick {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(26, 22, 22);
+  color: aliceblue;
+  padding: 1.4rem;
+}
+
+.brand {
+  pointer-events: none;
+}
+
+.top-left {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+
+.quick li a {
+  text-decoration: none;
+}
+
+.news,
+.wash {
+  padding: 1rem;
+  height: 500px;
+  width: 500px;
+}
+
+#helpline {
+  padding: 1.5rem;
+}
+
+.home-img {
+  padding: 1.5rem;
+  height: 400px;
+  width: 500px;
+}
+
+.distortion {
+  height: 600px;
+  width: 600px;
+}
+
+.home-img:hover {
+  opacity: 0.6;
+}
+
+.ks {
+  padding: 1rem;
+  margin: 1rem;
+  height: 500px;
+  width: 500px;
+}
+
+.inactive > li {
+  padding: 0.5rem;
+}
+
+.content {
+  position: relative;
+}
+
+.title {
+  padding: 3rem;
+  margin: auto;
+}
+
+.scene,
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.title-p,
+.anchor {
+  margin-left: 1.5rem;
+  padding-left: 1.7rem;
+}
+
+h6 {
+  display: block;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* 
+@media (max-width: 956px) {
+  .lady-img {
+    width: 45%;
+    height: 45%;
+  }
+} */
+.small-title {
+  box-sizing: border-box;
+}
+
+.virus,
+.virus-1 {
+  height: 35%;
+  width: 35%;
+  position: relative;
+
+  animation: virusAnimation 3s ease infinite alternate;
+}
+
+.virus-1 {
+  animation: virusAnimation-1 3s ease infinite alternate;
+}
+
+#symptoms {
+  background-color: rgb(189, 189, 189);
+  margin-top: 2rem;
+  padding-top: 2rem;
+  color: #312929;
+}
+
+header {
+  background-image: linear-gradient(
+    120deg,
+    rgb(61, 223, 169),
+    rgb(119, 196, 231),
+    rgb(225, 140, 236)
+  );
+}
+
+.carousel-item {
+  padding: 8% 16%;
+}
+
+.covid {
+  padding-left: 1.3rem;
+}
+
+.footer-icons {
+  padding: 2rem;
+}
+
+nav {
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+#info {
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+#preventions {
+  padding: 90px;
+  background-color: antiquewhite;
+}
+
+#preventions h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.pad {
+  padding: 2rem;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+
+  border-top-style: dotted;
+  border-color: #ddd3d3;
+  border-width: 5px;
+  width: 3%;
+  margin: 50px auto;
+}
+
+#video {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: url(images/back.png);
+  color: rgb(253, 254, 255);
+  font-size: 40px;
+}
+
+.cdn {
+  text-align: center;
+  font-weight: bold;
+}
+
+.active > h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.active > p {
+  text-align: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.covid-info {
+  padding: 3rem;
+}
+
+.lady-animation {
+  animation: lady 1s ease infinite alternate;
+}
+
+@keyframes lady {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(15px);
+  }
+}
+
+@keyframes virusAnimation {
+  from {
+    transform: translateX(-125px);
+  }
+
+  to {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes virusAnimation-1 {
+  from {
+    transform: translateX(500px);
+  }
+
+  to {
+    transform: translateX(75px);
+  }
+}
+
+@media (max-width: 1028px) {
+  @keyframes virusAnimation {
+    from {
+      transform: translateX(-60px);
+    }
+
+    to {
+      transform: translateX(120px);
+    }
+  }
+
+  @keyframes virusAnimation-1 {
+    from {
+      transform: translateX(190px);
+    }
+
+    to {
+      transform: translateX(20px);
+    }
+  }
+
+  .random {
+    text-align: center;
+    left: 2rem;
+    width: 400px;
+    height: 270px;
+  }
+
+  .info-img,
+  .lady-img {
+    text-align: center;
+    width: 250px;
+    height: 260px;
+  }
+
+  #home {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .info-img {
+    position: absolute;
+  }
+
+  .news,
+  .scene,
+  .home-img,
+  .lady-img,
+  .wash,
+  .ks {
+    display: none;
+  }
+
+  .title-p {
+    padding-left: 4rem;
+  }
+
+  .A {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+
+  .anchor {
+    text-align: center;
+  }
+
+  #video {
+    background: url(images/virus-bg.jpg);
+  }
+}
