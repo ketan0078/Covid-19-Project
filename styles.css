@@ -289,17 +289,17 @@ hr {
 @media (max-width: 1028px) {
   @keyframes virusAnimation {
     from {
-      transform: translateX(-60px);
+      transform: translateX(-30px);
     }
 
     to {
-      transform: translateX(120px);
+      transform: translateX(100px);
     }
   }
 
   @keyframes virusAnimation-1 {
     from {
-      transform: translateX(150px);
+      transform: translateX(130px);
     }
 
     to {
