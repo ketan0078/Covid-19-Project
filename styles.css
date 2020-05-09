@@ -313,6 +313,9 @@ hr {
     width: 400px;
     height: 270px;
   }
+  .footer-para{
+    text-align: center;
+  }
 
   .info-img,
   .lady-img {
